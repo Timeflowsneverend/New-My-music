@@ -18,7 +18,7 @@ const Home = () => {
       <li><a className="grid" href="html/counting_stars.html">Counting Stars</a></li>
       <li><a className="grid" href="html/hallelujah.html">Hallelujah</a></li>
     </ul>
-    <a className="mp-download" href="apk/Gramophone-1.0.16.1-release.apk" download>Download Gramophone (Music Player For Andorid)</a>
+    <a className="mp-download" href="apk/Gramophone-1.0.16.1-release.apk" download>Download Gramophone<br/> (Music Player For Andorid)</a>
   </div>
   );
 }

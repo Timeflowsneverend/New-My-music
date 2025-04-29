@@ -17,7 +17,7 @@ import Hallelujah from "./components/music/Hallelujah";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/New-My-music">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/arcade" element={<Arcade />} />

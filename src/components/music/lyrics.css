@@ -1,0 +1,151 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;
+    background-color: #333;
+    /* color: orange; */
+}
+
+/* Header */
+header {
+    background-color: #5c5b5b8e;
+    display: grid;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+/* Lyrics Section */
+.lyrics {
+    background-color: #212121;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.lyrics h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.lyrics div {
+    font-size: 1.1rem;
+    color: white;
+    text-align: center;
+}
+
+/* Download Button */
+.jacket {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta-button {
+    background-color:  #0056b3;
+    color: #ffffffa6;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    display: inline-block;
+    transition: 0.2s ease-in-out;
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid white;
+    border: 1px solid red;
+}
+.btn {
+    color: rgba(255, 255, 255, 0.849);
+    background-color: gray;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 50px;
+    display: inline-block;
+    transition: 0.2s ease-in-out;
+    box-shadow: 5px 5px 5px black;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.cta-button:hover {
+    background-color: #007BFF ;
+    box-shadow: 30px 30px 30px black;
+    transform:scale(1.3);
+    color: white;
+}
+.btn:hover {
+    transform: scale(1.2);
+    color: white;
+    box-shadow: 30px 30px 30px black;
+    background-color: rgba(255, 255, 255, 0.555);
+}
+.cta-button:active,.btn:active {
+    color: black;
+    transform: scale(0.8);
+    transition: .1s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .lyrics {
+        padding: 15px;
+    }
+
+    .lyrics h1 {
+        font-size: 1.8rem;
+    }
+
+    .cta-button {
+        padding: 12px 25px;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 5px;
+    }
+
+    .lyrics {
+        padding: 10px;
+    }
+
+    .lyrics h1 {
+        font-size: 1.5rem;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
+.audio-player {
+    text-align: center;
+    margin: 20px 0;
+}
+
+audio {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+::selection {
+    background-color: #00bcd4;
+    color: #222;
+  }
